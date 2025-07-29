@@ -1,0 +1,241 @@
+    1  date
+    2  bc
+    3  date
+    4  bc
+    5  date
+    6  bc
+    7  sudo apt update
+    8  sudo apt upgrade
+    9  clear
+   10  echo $SHELL
+   11  printenv SHELL
+   12  whoami
+   13  whatis echo
+   14  ]whatis printenv
+   15  what is printenv
+   16  whatis printenv
+   17  whatis whoami
+   18  whatis cat
+   19  whereis cat
+   20  whereis gcc
+   21  info cat
+   22  sudo apt install gcc
+   23  clear
+   24  sudo apt install build-essential
+   25  date
+   26  date "+%D"
+   27  date "+%D%T"
+   28  date "+%Y-%m-%d"
+   29  date "+%Y/%m/%d"
+   30  date "+%A %B %d %Y %T"
+   31  date --date "tomorrow"
+   32  date --date "2 years ago"
+   33  man date
+   34  clear
+   35  cal
+   36  sudo apt install cal
+   37  sudo apt install ncal
+   38  cal
+   39  cal 7 2025
+   40  cal 5 2025
+   41  cal 2025
+   42  cal -3 2025
+   43  cal -3
+   44  clear
+   45  ps
+   46  exit
+   47  ps
+   48  sudo history
+   49  history
+   50  clear
+   51  bc
+   52  bc <<< "12/5"
+   53  bc <<< "scale=2; 12/5"
+   54  bc <<< "2>5"
+   55  bc <<< "2^10"
+   56  uname
+   57  uname -o
+   58  uname -i
+   59  uname -n
+   60  uname -v
+   61  uname -s
+   62  uname -m
+   63  uname -r
+   64  uname -a
+   65  echo "Welcome to Linux"
+   66  echo -e "Hello \t World"
+   67  echo -n "Hello World"
+   68  echo "Welcome to \"Linux\""
+   69  echo `date
+   70  q
+   71  quit
+   72  clear
+   73  echo `date`
+   74  echo "This is
+   75  Linux
+   76  Training
+   77  for
+   78  Notchup
+   79  July 2025"
+   80  echo "This is Linux Training for Notchup July 2025"
+   81  printf "Linux Training"
+   82  printf "Linux training\n"
+   83  printf "My shell is %s\n" $SHELL
+   84  seq 1 10
+   85  seq 1 3 10
+   86  seq 10 -1 1
+   87  seq 20 -2 0
+   88  seq -s " " 10
+   89  seq -s " " 5 10
+   90  seq -s 5 10
+   91  seq -s " " 5 3 50
+   92  rev <<< Linux
+   93  history
+   94  seq 1 10
+   95  date --date "2 years ago"
+   96  sudo apt install ncal
+   97  echo $
+   98  echo $?
+   99  false
+  100  echo $?
+  101  ls
+  102  nano newfile
+  103  cd new
+  104  ls
+  105  mkdir new
+  106  cd new
+  107  mkdir new
+  108  mkdir ~/new
+  109  cd new
+  110  cd ~/new
+  111  mkdir ~/new1 ~/new2
+  112  ls
+  113  cd
+  114  cd -
+  115  mkdir -p d1/d2
+  116  ls
+  117  cd d1
+  118  ls
+  119  ls -l
+  120  cd ..
+  121  cd
+  122  ls -l
+  123  ls -a
+  124  ls -R
+  125  nano demo
+  126  wc demo
+  127  touch newfile.txt
+  128  nano newfile.txt
+  129  cat newfile.txt
+  130  cat newfile.txt > output.txt
+  131  cat output.txt
+  132  cat -n demo
+  133  ls
+  134  mkdir training
+  135  cp newfile output.txt training
+  136  cd training
+  137  ls
+  138  cd
+  139  ls
+  140  ls -R
+  141  cp -r new training
+  142  ls
+  143  cd training
+  144  ls
+  145  cd new
+  146  ls
+  147  cd
+  148  mv output.txt out
+  149  ls
+  150  mv out training
+  151  ls
+  152  cd training
+  153  ls
+  154  vi sum.c
+  155  gcc sum.c && ./a.out
+  156  sudo apt install update
+  157  sudo apt install gcc
+  158  gcc ifelse.c
+  159  cd notchupfy26
+  160  cd notchupJul25
+  161  gcc ifelse.c
+  162  gcc 1darray.c
+  163  cd ..
+  164  gcc 1darray.c
+  165  ./a.out
+  166  sudo apt install update
+  167  sudo apt update
+  168  sudo apt upgrade
+  169  sudo apt install build-essential
+  170  exit
+  171  echo $SHELL
+  172  sudo apt install build-essential
+  173  sudo apt install gcc
+  174  sudo apt install g++
+  175  date; uname -r; whoami
+  176  date; unam -r; whoami
+  177  date; uname -r; whoami
+  178  date && whoami
+  179  cd
+  180  pwd
+  181  mkdir stepin
+  182  cd stepin
+  183  mkdir sdlc git linux
+  184  ls
+  185  cd sdlc
+  186  mkdir -p models/agile
+  187  ls
+  188  cd models
+  189  ls
+  190  cd
+  191  ls
+  192  ls -l
+  193  ls -a
+  194  ls -R
+  195  cd stepin
+  196  ls -R
+  197  cd agile
+  198  nano cicd
+  199  wc cicd
+  200  wc this is day 2 of the training
+  201  wc
+  202  touch newfile.txt
+  203  ls
+  204  nano newfile.txt
+  205  cat newfile.txt
+  206  cat cicd
+  207  cat cicd > new.txt
+  208  cat new.txt
+  209  cat newfile.txt >> new.txt
+  210  cat new.txt
+  211  cat cicd > new.txt
+  212  cat new.txt
+  213  cat -n cicd
+  214  tac cicd
+  215  cp demo newfile stepin
+  216  cp -r training stepin
+  217  mv newfile git
+  218  cd git
+  219  cd
+  220  mv newfile git
+  221  cd stepin
+  222  ls
+  223  mv newfile git
+  224  mv newfile Day2
+  225  rm Day2
+  226  rm n*
+  227  ls
+  228  rmdir new
+  229  history
+  230  ls
+  231  cd ..
+  232  ls
+  233  rm new
+  234  rmdir new
+  235  cd new
+  236  ls
+  237  cd
+  238  rm -r new
+  239  ls
+  240  history
+  241  history > my_history.txt
